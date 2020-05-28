@@ -58,7 +58,7 @@ while True:
 
     sonuc = kesilmis_kare.copy()
 
-    cnts, hierarchy   = cv2.findContours(renk_filtresi_sonuc,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+    _,cnts, hierarchy   = cv2.findContours(renk_filtresi_sonuc,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
     max_genislik = 0
     max_uzunluk = 0
     max_index = -1
